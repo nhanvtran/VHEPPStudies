@@ -1,0 +1,9 @@
+curl -O http://atlaswww.hep.anl.gov/asc/hepsim/soft/fpadsoft-1.1.tgz
+tar -vxzf fpadsoft-1.1.tgz
+cp mc_Zprime10TeVWW.py fpadsoft
+cd fpadsoft 
+source setup.sh
+
+# Modify this file, 'mc_Zprime10TeVWW.py'
+# Make sure you accessing the right data directory, etc.
+./fpadsoft mc_Zprime10TeVWW.py

@@ -17,3 +17,8 @@ cd fjcontrib-1.021
 make 
 make check
 make install
+
+#Then run the code
+cd ../analyze
+make
+./anaSubstructure $yourdatafilename

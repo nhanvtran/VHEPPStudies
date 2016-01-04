@@ -16,7 +16,7 @@ import math
 
 # make list of files..
 import glob
-files=glob.glob("/Users/ntran/Documents/Research/Ext/VHEPP/Zprime10TeV_to_WW_4k/*.slcio")
+files=glob.glob("/Users/ntran/Documents/Research/Ext/VHEPP/Zprime1TeV_to_qq/*.slcio")
 factory = LCFactory.getInstance()
 reader = factory.createLCReader()
 
